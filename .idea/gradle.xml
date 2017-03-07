@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TextInputLayout" />
+            <option value="$PROJECT_DIR$/rippledrawable" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
