@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/TextInputLayout/TextInputLayout.iml" filepath="$PROJECT_DIR$/TextInputLayout/TextInputLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/rippledrawable/rippledrawable.iml" filepath="$PROJECT_DIR$/rippledrawable/rippledrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transitiondrawable/transitiondrawable.iml" filepath="$PROJECT_DIR$/transitiondrawable/transitiondrawable.iml" />
     </modules>
   </component>
 </project>

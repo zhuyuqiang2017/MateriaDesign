@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TextInputLayout" />
             <option value="$PROJECT_DIR$/rippledrawable" />
+            <option value="$PROJECT_DIR$/transitiondrawable" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
