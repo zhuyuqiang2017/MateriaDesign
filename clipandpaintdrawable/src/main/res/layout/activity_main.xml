@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.clipandpaintdrawable.MainActivity">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:padding="0dp"
+        android:src="@drawable/clip_drawable"
+        android:scaleType="fitXY"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv"
+        android:layout_marginTop="3dp"
+        android:onClick="changeImageView"
+        android:text="@string/set_image" />
+
+    <Button
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_marginTop="3dp"
+        android:onClick="changeImage"
+        android:text="@string/change_image" />
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClipAndPaintDrawable</string>
+    <string name="set_image">设置图片</string>
+    <string name="change_image">更改图片</string>
+</resources>

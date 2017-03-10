@@ -10,6 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TextInputLayout" />
+            <option value="$PROJECT_DIR$/clipandpaintdrawable" />
+            <option value="$PROJECT_DIR$/paintdrawable" />
             <option value="$PROJECT_DIR$/rippledrawable" />
             <option value="$PROJECT_DIR$/transitiondrawable" />
           </set>

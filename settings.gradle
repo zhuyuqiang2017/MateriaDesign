@@ -1,1 +1,1 @@
-include ':TextInputLayout', ':rippledrawable', ':transitiondrawable'
+include ':TextInputLayout', ':rippledrawable', ':transitiondrawable', ':clipandpaintdrawable', ':paintdrawable'
