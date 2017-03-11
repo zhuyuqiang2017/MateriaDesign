@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorAccent"/> //在没有匹配Level时显示的图片
+    <item
+        android:drawable="@drawable/first"
+        android:maxLevel="2"
+        android:minLevel="1" />
+    <!-- 用TransitionDrawable来代替item标签里的drawable资源-->
+    <item
+        android:maxLevel="4"
+        android:minLevel="3" >
+        <transition >
+            <item android:drawable="@drawable/first" />
+            <item android:drawable="@drawable/second" />
+        </transition>
+    </item>
+    <item
+        android:drawable="@drawable/third"
+        android:maxLevel="6"
+        android:minLevel="5" />
+    <item
+        android:drawable="@drawable/fourth"
+        android:maxLevel="8"
+        android:minLevel="7" />
+    <item
+        android:drawable="@drawable/fifth"
+        android:maxLevel="10"
+        android:minLevel="9" />
+</level-list>

@@ -3,11 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TextInputLayout/TextInputLayout.iml" filepath="$PROJECT_DIR$/TextInputLayout/TextInputLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/clipandpaintdrawable/clipandpaintdrawable.iml" filepath="$PROJECT_DIR$/clipandpaintdrawable/clipandpaintdrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/levellistdrawable/levellistdrawable.iml" filepath="$PROJECT_DIR$/levellistdrawable/levellistdrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/paintdrawable/paintdrawable.iml" filepath="$PROJECT_DIR$/paintdrawable/paintdrawable.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rippledrawable/rippledrawable.iml" filepath="$PROJECT_DIR$/rippledrawable/rippledrawable.iml" />
-      <module fileurl="file://$PROJECT_DIR$/transitiondrawable/transitiondrawable.iml" filepath="$PROJECT_DIR$/transitiondrawable/transitiondrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picturedrawable/picturedrawable.iml" filepath="$PROJECT_DIR$/picturedrawable/picturedrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectordrawable/vectordrawable.iml" filepath="$PROJECT_DIR$/vectordrawable/vectordrawable.iml" />
     </modules>
   </component>
 </project>

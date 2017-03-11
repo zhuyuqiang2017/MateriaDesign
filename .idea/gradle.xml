@@ -9,11 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/TextInputLayout" />
-            <option value="$PROJECT_DIR$/clipandpaintdrawable" />
+            <option value="$PROJECT_DIR$/levellistdrawable" />
             <option value="$PROJECT_DIR$/paintdrawable" />
-            <option value="$PROJECT_DIR$/rippledrawable" />
-            <option value="$PROJECT_DIR$/transitiondrawable" />
+            <option value="$PROJECT_DIR$/picturedrawable" />
+            <option value="$PROJECT_DIR$/vectordrawable" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

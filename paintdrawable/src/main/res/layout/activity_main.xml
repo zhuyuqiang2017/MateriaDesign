@@ -14,7 +14,8 @@
         android:id="@+id/iv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="400dp" />
+        android:minHeight="400dp"
+        />
 
     <Button
         android:layout_width="match_parent"
