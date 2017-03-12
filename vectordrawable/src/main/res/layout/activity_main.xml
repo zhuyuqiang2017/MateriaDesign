@@ -6,12 +6,12 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_gravity="center_horizontal"
-        android:scaleType="fitCenter"
         android:id="@+id/iv"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:src="@drawable/vector_drawable" />
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_airplanemode_active_black_24dp" />
 
     <Button
         android:layout_width="match_parent"

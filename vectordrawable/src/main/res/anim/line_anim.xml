@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="7000"
+        android:propertyName="pathData"
+        android:valueFrom="M0,0 L0,0 L0,0"
+        android:valueType="pathType"
+        android:valueTo="M200,0 L200,30 L200,40"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite"/>
+<!--    <objectAnimator android:duration="7000"
+        android:propertyName="trimPathEnd"
+        android:valueFrom="0"
+        android:valueType="floatType"
+        android:valueTo="1" />-->
+</set>

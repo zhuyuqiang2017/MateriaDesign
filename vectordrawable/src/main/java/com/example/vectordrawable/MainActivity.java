@@ -1,8 +1,7 @@
 package com.example.vectordrawable;
 
-import android.graphics.drawable.Animatable;
+import android.graphics.drawable.AnimatedVectorDrawable;
 import android.graphics.drawable.Drawable;
-import android.graphics.drawable.VectorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void startAnimator(View view){
         Drawable d = iv.getDrawable();
-        if (d instanceof Animatable){
-            ((Animatable) d).start();
+        if (d instanceof AnimatedVectorDrawable){
+            ((AnimatedVectorDrawable) d).start();
         }
     }
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    <objectAnimator
+            android:duration="7000"
+            android:propertyName="rotate"
+            android:repeatCount="infinite"
+            android:repeatMode="reverse"
+            android:valueFrom="0"
+            android:valueTo="360"
+            android:valueType="intType" />-->
+    <!--    <rotate
+            android:fromDegrees="0"
+            android:toDegrees="360"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            />-->
+    <objectAnimator
+        android:duration="7000"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="360"
+        android:valueType="floatType" />
+
+</set>

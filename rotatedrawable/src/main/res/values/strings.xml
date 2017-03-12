@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RotateDrawable</string>
+    <string name="set_rotate">"旋转drawable"</string>
+</resources>
