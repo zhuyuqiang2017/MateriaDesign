@@ -1,2 +1,2 @@
-include ':paintdrawable', ':levellistdrawable', ':picturedrawable', ':vectordrawable', ':rotatedrawable', ':scaledrawable',':clipandpaintdrawable'
+include ':paintdrawable', ':levellistdrawable', ':picturedrawable', ':vectordrawable', ':rotatedrawable', ':scaledrawable', ':clipandpaintdrawable', ':colordrawable', ':shapeandgradientdrawable', ':animatedrotatedrawable', ':animatedstatelistdrawable', ':animatedvetectordrawable'
 //':TextInputLayout', ':rippledrawable', ':transitiondrawable', ':clipandpaintdrawable',

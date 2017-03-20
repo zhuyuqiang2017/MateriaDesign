@@ -3,12 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animatedrotatedrawable/animatedrotatedrawable.iml" filepath="$PROJECT_DIR$/animatedrotatedrawable/animatedrotatedrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animatedstatelistdrawable/animatedstatelistdrawable.iml" filepath="$PROJECT_DIR$/animatedstatelistdrawable/animatedstatelistdrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animatedvetectordrawable/animatedvetectordrawable.iml" filepath="$PROJECT_DIR$/animatedvetectordrawable/animatedvetectordrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/clipandpaintdrawable/clipandpaintdrawable.iml" filepath="$PROJECT_DIR$/clipandpaintdrawable/clipandpaintdrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colordrawable/colordrawable.iml" filepath="$PROJECT_DIR$/colordrawable/colordrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/levellistdrawable/levellistdrawable.iml" filepath="$PROJECT_DIR$/levellistdrawable/levellistdrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/paintdrawable/paintdrawable.iml" filepath="$PROJECT_DIR$/paintdrawable/paintdrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/picturedrawable/picturedrawable.iml" filepath="$PROJECT_DIR$/picturedrawable/picturedrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/rotatedrawable/rotatedrawable.iml" filepath="$PROJECT_DIR$/rotatedrawable/rotatedrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/scaledrawable/scaledrawable.iml" filepath="$PROJECT_DIR$/scaledrawable/scaledrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shapeandgradientdrawable/shapeandgradientdrawable.iml" filepath="$PROJECT_DIR$/shapeandgradientdrawable/shapeandgradientdrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/vectordrawable/vectordrawable.iml" filepath="$PROJECT_DIR$/vectordrawable/vectordrawable.iml" />
     </modules>
   </component>

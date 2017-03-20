@@ -9,12 +9,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animatedrotatedrawable" />
+            <option value="$PROJECT_DIR$/animatedstatelistdrawable" />
+            <option value="$PROJECT_DIR$/animatedvetectordrawable" />
             <option value="$PROJECT_DIR$/clipandpaintdrawable" />
+            <option value="$PROJECT_DIR$/colordrawable" />
             <option value="$PROJECT_DIR$/levellistdrawable" />
             <option value="$PROJECT_DIR$/paintdrawable" />
             <option value="$PROJECT_DIR$/picturedrawable" />
             <option value="$PROJECT_DIR$/rotatedrawable" />
             <option value="$PROJECT_DIR$/scaledrawable" />
+            <option value="$PROJECT_DIR$/shapeandgradientdrawable" />
             <option value="$PROJECT_DIR$/vectordrawable" />
           </set>
         </option>

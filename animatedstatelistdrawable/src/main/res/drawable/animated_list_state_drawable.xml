@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/off" android:drawable="@drawable/first" android:state_pressed="false"/>
+    <item android:id="@+id/on" android:state_pressed="true" android:drawable="@drawable/fifth"/>
+    <transition
+        android:fromId="@id/off"
+        android:toId="@id/on">
+        <animation-list >
+            <item android:drawable="@drawable/first" android:duration="100"/>
+            <item android:drawable="@drawable/second" android:duration="100"/>
+            <item android:drawable="@drawable/third" android:duration="100"/>
+            <item android:drawable="@drawable/fourth" android:duration="100"/>
+            <item android:drawable="@drawable/fifth" android:duration="100"/>
+        </animation-list>
+    </transition>
+
+</animated-selector>
