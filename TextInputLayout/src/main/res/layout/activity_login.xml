@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/login_title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/user_edit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:hint="@string/login_user_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pwd_edit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/user_edit_id"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/login_pwd_hint"
+        android:inputType="number|phone" />
+
+    <TextView
+        android:id="@+id/register_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/user_edit_id"
+        android:layout_below="@+id/user_edit_id"
+        android:onClick="onRegisterNewUser"
+        android:text="@string/login_register"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/find_pwd_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pwd_edit_id"
+        android:layout_below="@+id/pwd_edit_id"
+        android:text="@string/login_find_pwd"
+        android:onClick="onFindPassword"
+        android:textColor="?android:attr/textColorHint" />
+
+    <Button
+        android:id="@+id/login_cancel_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/find_pwd_id"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="53dp"
+        android:layout_toStartOf="@+id/textView"
+        android:background="@android:color/transparent"
+        android:onClick="onLogInCancel"
+        android:text="@string/login_cancel" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login_cancel_id"
+        android:layout_alignBottom="@+id/login_cancel_id"
+        android:layout_alignStart="@+id/find_pwd_id"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/transparent"
+        android:onClick="onLogInEnsure"
+        android:text="@string/login_ensure" />
+
+    <TextView
+        android:onClick="onShowDescription"
+        android:id="@+id/login_desc_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:drawableRight="@drawable/ic_info_outline_black_24dp"
+        android:text="@string/login_desc"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pwd_id"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="38dp"
+        android:text="@string/login_user" />
+
+    <TextView
+        android:id="@+id/pwd_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pwd_edit_id"
+        android:layout_alignStart="@+id/login_cancel_id"
+        android:layout_marginStart="14dp"
+        android:text="@string/login_pwd" />
+</RelativeLayout>

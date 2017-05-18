@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextInputLayout/TextInputLayout.iml" filepath="$PROJECT_DIR$/TextInputLayout/TextInputLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/animatedrotatedrawable/animatedrotatedrawable.iml" filepath="$PROJECT_DIR$/animatedrotatedrawable/animatedrotatedrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/animatedstatelistdrawable/animatedstatelistdrawable.iml" filepath="$PROJECT_DIR$/animatedstatelistdrawable/animatedstatelistdrawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/animatedvetectordrawable/animatedvetectordrawable.iml" filepath="$PROJECT_DIR$/animatedvetectordrawable/animatedvetectordrawable.iml" />

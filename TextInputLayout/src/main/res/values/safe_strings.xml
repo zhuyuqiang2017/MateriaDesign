@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Log In layout-->
+    <string name="login_title">登录</string>
+    <string name="login_user">用户：</string>
+    <string name="login_register">注册新用户</string>
+    <string name="login_pwd">密码：</string>
+    <string name="login_find_pwd">忘记密码？</string>
+    <string name="login_user_hint">用户名</string>
+    <string name="login_pwd_hint">密码</string>
+    <string name="login_cancel">取消</string>
+    <string name="login_ensure">确定</string>
+    <string name="login_desc">详细说明</string>
+    <string name="login_desc_content">&#160;&#160;&#8201;&#160;&#160;&#8201;在使用远程管控功能时，用户需要根据注册的用户名和密码，在远程安全管控设置界面中，用户需要设置安全手机号码，在手机丢失的情况下，通过安全手机号
+        发送相关短信到丢失的手机上可以进行相关的操作！！！\n\n
+        相关指令信息：\n\n
+                    1、屏幕锁定操作：\n
+                        &#160;&#160;&#8201;&#160;&#160;&#8201;短信内容：WIND@SDPM\n\n
+                    2、屏幕解锁操作：\n
+                        &#160;&#160;&#8201;&#160;&#160;&#8201;短信内容：WIND@JSPM\n\n
+                    3、清除数据操作：\n
+                        &#160;&#160;&#8201;&#160;&#160;&#8201;短信内容：WIND@QCSJ\n\n
+                    &#160;&#160;&#8201;&#160;&#160;&#8201;执行数据清除操作之后，手机将被恢复出厂设置，手机中的个人信息将被擦除，操作完成之后，手机将处于可操作状态！！！\n</string>
+    <!--Register Layout-->
+    <string name="register_title">注册新用户</string>
+    <string name="register_user">新用户：</string>
+    <string name="register_pwd_1">密码：</string>
+    <string name="register_pwd_again">确认密码：</string>
+    <string name="register_user_hint">新用户名</string>
+    <string name="register_pwd_1_hint">密码</string>
+    <string name="register_pwd_again_hint">再次输入密码</string>
+    <string name="register_cancel">取消</string>
+    <string name="register_ensure">确定</string>
+    <string name="register_desc">详细说明</string>
+    <!--Setting Layout-->
+    <string name="setting_title">安全设置</string>
+    <string name="setting_toggel">启用远程安全控制</string>
+    <string name="setting_toggel_off">远程安全控制已关闭</string>
+    <string name="setting_toggel_on">远程安全控制已开启</string>
+    <string name="safe_phone_number">当前安全号码：</string>
+    <string name="safe_phone_number_hint">187XXXXXXXX</string>
+    <string name="modify_safe_phone_number">修改号码</string>
+    <string name="safe_setting_desc_title">使用说明</string>
+    <string name="safe_setting_desc_info">&#160;&#160;&#8201;&#160;&#160;&#8201;在手机丢失情况下，可以只用通过安全手机号码发送相关指令对已丢失的手机进行远程控制！！\n\n
+                    相关指令信息：\n\n
+                    1、屏幕锁定操作：\n
+                        &#160;&#160;&#8201;&#160;&#160;&#8201;短信内容：WIND@SDPM\n\n
+                    2、屏幕解锁操作：\n
+                        &#160;&#160;&#8201;&#160;&#160;&#8201;短信内容：WIND@JSPM\n\n
+                    3、清除数据操作：\n
+                        &#160;&#160;&#8201;&#160;&#160;&#8201;短信内容：WIND@QCSJ\n\n
+                    &#160;&#160;&#8201;&#160;&#160;&#8201;执行数据清除操作之后，手机将被恢复出厂设置，手机中的个人信息将被擦除，操作完成之后，手机将处于可操作状态！！！\n
+    </string>
+    <!--Setting Dialog Layout-->
+    <string name="setting_safe_number_dialog_title">设置安全号码</string>
+    <string name="setting_safe_number_dialog_content">安全号码</string>
+    <string name="setting_safe_number_dialog_content_hint">187XXXXXXXX</string>
+    <string name="setting_safe_number_dialog_cancel">取&#160;&#160;&#8201;消</string>
+    <string name="setting_safe_number_dialog_ensure">确&#160;&#160;&#8201;认</string>
+    <!--Notification -->
+    <string name="notification_title">安全管控服务</string>
+    <string name="notification_content">安全管控服务信息</string>
+    <string name="notification_big_content">&#160;&#160;&#8201;&#160;&#160;&#8201;安全管控服务已启动 \n
+        &#160;&#160;&#8201;&#160;&#160;&#8201;暂停服务将导致安全管控失效</string>
+
+</resources>

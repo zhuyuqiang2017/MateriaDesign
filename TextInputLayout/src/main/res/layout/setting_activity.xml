@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/register_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/setting_title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:id="@+id/safe_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/register_title"
+        android:layout_marginTop="23dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/setting_toggel"
+        android:textColor="@color/colorPrimary"
+        android:textOff="@string/setting_toggel_off"
+        android:textOn="@string/setting_toggel_on"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/modify_number"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView14"
+        android:maxLines="20"
+        android:minLines="10"
+        android:text="@string/safe_setting_desc_info"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/safe_switch"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="38dp"
+        android:layout_toStartOf="@+id/textView14"
+        android:text="@string/safe_phone_number"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/safe_setting_desc_title"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/modify_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/safe_number_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/safe_phone_number_hint"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:id="@+id/modify_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/safe_number_id"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="7dp"
+        android:drawableRight="@drawable/ic_info_outline_black_24dp"
+        android:onClick="onModifySafeNumber"
+        android:text="@string/modify_safe_phone_number"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

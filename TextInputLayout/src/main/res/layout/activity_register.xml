@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:onClick="onRegisterDesc"
+        android:id="@+id/register_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/register_title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/register_new_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="@string/register_user_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/register_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_new_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="@string/register_pwd_1_hint"
+        android:inputType="textPassword|numberPassword" />
+
+    <EditText
+        android:id="@+id/register_pwd_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/register_pwd"
+        android:layout_below="@+id/register_pwd"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:hint="@string/register_pwd_again_hint"
+        android:inputType="textPassword|numberPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_pwd"
+        android:layout_alignEnd="@+id/register_cancel"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="13dp"
+        android:text="@string/register_user" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_pwd_again"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginBottom="42dp"
+        android:text="@string/register_pwd_1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/register_pwd_again"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginBottom="42dp"
+        android:text="@string/register_pwd_again" />
+
+    <Button
+        android:id="@+id/register_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/register_pwd_again"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRegisterCancel"
+        android:text="@string/register_cancel" />
+
+    <Button
+        android:id="@+id/register_ensure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/register_cancel"
+        android:layout_alignBottom="@+id/register_cancel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="38dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRegisterEnsure"
+        android:text="@string/register_ensure" />
+
+    <TextView
+        android:id="@+id/register_desc_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:drawableRight="@drawable/ic_info_outline_black_24dp"
+        android:text="@string/register_desc"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:onClick="onRegisterDesc"/>
+
+</RelativeLayout>
